@@ -11,7 +11,7 @@ namespace WebApplication1
 {
     public partial class WebForm1 : System.Web.UI.Page
     {
-        SqlConnection con = new SqlConnection(@"Data Source=PC339\SQL2008;Initial Catalog=asdasd;Integrated Security=True");
+        SqlConnection con = new SqlConnection(@"Server=70f79f60-fa63-4201-a651-a48700a64072.sqlserver.sequelizer.com;Database=db70f79f60fa634201a651a48700a64072;User ID=atyzzajeiipmfctp;Password=b3nhMAQ25s7Eh8ZiU2vaGDbqpVMNiXfTQhLnhqbGdeaLbZduAzRtRTeE252ZWcSg;");
         SqlDataAdapter da;
         DataTable dt;
         SqlCommand cmd;
