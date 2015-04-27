@@ -1,0 +1,9 @@
+﻿create database asdasd
+use asdasd
+
+create table userinfo
+(
+	userid int primary key identity,
+	fname varchar(50),
+	lname varchar(50)
+)
